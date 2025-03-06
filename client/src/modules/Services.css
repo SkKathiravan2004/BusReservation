@@ -1,0 +1,56 @@
+
+.services-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('C:\reactchild\client\15.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .services-container h1 {
+    font-size: 2.5rem;
+    color:#f4f4f4;
+    text-align: center;
+  }
+  
+  .services-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .service-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h2 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+  }
+  
+  .service-card p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .services-container h1 {
+      font-size: 2rem;
+    }
+  
+    .service-card {
+      margin: 10px;
+    }
+  }
+  

@@ -1,0 +1,91 @@
+
+.contact-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 100;
+  margin: 0 auto;
+  background-image: url('C:\reactchild\client\15.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.contact-container h1 {
+  background-image: linear-gradient(#ff2f93,#ff2f93);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x:right ;
+  text-align: center;
+  color:rgb(246, 250, 246);
+  transition: background-size 500ms;
+
+}
+.contact-container h1:hover{
+  background-size: 100%;
+  background-position-x:left ;
+}
+
+
+.contact-container h2 {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color:rgb(246, 250, 246);
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: block;
+  width: 20%;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}

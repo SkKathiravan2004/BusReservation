@@ -1,0 +1,77 @@
+
+.booking-page-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    max-width: 100;
+    margin: 0 auto;
+    background-image: url('C:\reactchild\client\7.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+  
+  .booking-page-container h1 {
+    text-align: center;
+    color: #1a201b;
+  }
+  
+  .success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: block;
+    width: 20%;
+    margin-top: 20px;
+  }
+  
+  .book-btn:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    .booking-page-container {
+      padding: 15px;
+    }
+    .book-btn {
+      font-size: 1.2rem;
+    }
+  }
+  
